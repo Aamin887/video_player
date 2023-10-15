@@ -8,9 +8,10 @@
 }
 
 .content{
-  height: 450px;
+  height: 400px;
   background-color: blanchedalmond;
   padding: 10px 15px;
+  box-shadow: 0 0 0 3px grey;
   border-radius: 20px;
 }
 
@@ -25,13 +26,13 @@ label {
   font-size: 1.4rem;
 }
 .video-container{
-  display: flex;
   width: 500px;
+  margin-top: 60px;
 }
 
 video {
+  box-shadow: 0 0 3px black;
   width: 100%;
   margin: 0;
   display: block;
-  aspect-ratio: 1/0.8;
 }
